@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <title>甲陽学院中学校 音楽と展覧の会特設ページ</title>
     <link rel="icon" href="images/favicon.png"> <!-- ファビコン -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
 </head>
 <body>
     <header class="header"> <!-- ヘッダー　スマホ版はハンバーガーメニュー -->
@@ -41,24 +40,8 @@
         </div>
     </header>
     <main class="main"> <!-- メイン -->
-                <!-- スライダーのコンテナ -->
-        <div class="swiper">
-            <!-- 必要に応じたwrapper -->
-            <div class="swiper-wrapper">
-                <!-- スライド -->
-                <div class="swiper-slide">
-                    <img src="images/koyo.png" alt="甲陽 講堂">
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/koyo1.png" alt="甲陽 校舎">
-                </div>            </div>
-            <!-- 必要に応じてページネーション -->
-            <div class="swiper-pagination"></div>
-            <!-- 必要に応じてナビボタン -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+        
 
-        </div>
         <section class="main__cowntdown space"> <!-- カウントダウン（Javascript） -->
             <p>甲陽学院中学校</p>
             <p>音楽と展覧の会当日まで</p>
@@ -75,17 +58,22 @@
                     <span id="sec" class="main__cowntdown__day__container_num"></span>
                     秒
                 </p>
+                <div class="container">
+                    <div class="box">
+                             <div class="clock"></div>
+                    </div>
+                </div>
                 <!-- <p class="main__cowntdown__day_txt">日</p> -->
             </div>
         </section>
-        <div class="container">
-            <div class="box">
-                     <div class="clock"></div>
-            </div>
-        </div>
+        
         <article class="main__article space"> <!-- お知らせ的な　食堂いつ　落とし物は　全面禁煙　上履き　講堂電話切れ　 -->
-            <h2 class="">お知らせ</h2>
+            <h2 class="news">お知らせ</h2>
             
+        </article>
+
+        <article>
+            <h2 class="committee">音展委員</h2>
         </article>
     </main>
     <footer class="footer">
@@ -125,6 +113,6 @@
         recalc();
 
     </script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
 </body>
 </html>
